@@ -10,7 +10,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from PyPDF2 import PdfReader
 # Set OpenAI API Key
-os.environ['OPENAI_API_KEY'] = "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"
+os.environ['OPENAI_API_KEY'] = <OpenAI API Key>
 
 # Initialize LLM with required params
 llm = OpenAI(temperature=0.5, max_tokens=500)
